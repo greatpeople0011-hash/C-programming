@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+     int n, x, y, z, g, h;
+    float a, b;
+    scanf("%d %d %d %d %d", &x, &y, &z, &g, &h);
+    n = x+y+z+g+h;
+    a = n/5.0;
+    b = (n/500.0)*100;
+    printf("%d %.2f %.2f", n, a, b);
+    return 0;
+}
