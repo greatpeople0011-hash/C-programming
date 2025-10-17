@@ -1,0 +1,17 @@
+int main() {
+
+    int Days, Weeks, Years;
+    scanf("%d %d %d", &Days, &Weeks, &Years);
+    
+    Years = Days/365;
+    printf("Years: %d\n", Years);
+    
+    Days = Days%365;
+    
+    Weeks = Days/7;
+    printf("Weeks: %d\n", Weeks);
+    
+    Days = Days%7;
+    printf("Days: %d\n", Days);
+    return 0;
+}
